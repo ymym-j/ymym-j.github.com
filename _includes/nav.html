@@ -87,10 +87,24 @@
 			</li>
 			<li>
 				<a href="#">Posts</a>
+                <!--
 				<ul class="dl-submenu">
                     <li><a href="{{ site.url }}/posts">All Posts</a></li>
                     <li><a href="{{ site.url }}/tags">All Tags</a></li>
 				</ul>
+				-->
+                <ul>
+                    {% assign pages_list = site.pages %}
+                    {% for node in pages_list %}
+                    {% if node.title != null %}
+                    {% if node.layout == "category" %}
+                    <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
+                           href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+
+                </ul>
 			</li>
 			{% for link in site.data.navigation %}
 		    {% if link.url contains 'http' %}
