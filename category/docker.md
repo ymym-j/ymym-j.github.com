@@ -1,5 +1,5 @@
 ---
-layout: post-list
+layout: category
 title: docker
 excerpt: "docker test"
 comments: true
