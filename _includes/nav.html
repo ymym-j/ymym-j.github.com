@@ -87,13 +87,9 @@
 			</li>
 			<li>
 				<a href="#">Posts</a>
-                <!--
 				<ul class="dl-submenu">
                     <li><a href="{{ site.url }}/posts">All Posts</a></li>
                     <li><a href="{{ site.url }}/tags">All Tags</a></li>
-				</ul>
-				-->
-                <ul>
                     {% assign pages_list = site.pages %}
                     {% for node in pages_list %}
                     {% if node.title != null %}
