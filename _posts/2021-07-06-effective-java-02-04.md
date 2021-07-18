@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "private 생성자나 열거 타입으로 싱글턴임을 보증하라"
+title: "생성자에 매개변수가 많다면 빌더를 고려하라"
 date: 2021-07-06
 excerpt: "effective java 2장 item 04"
 category: [effective java]
-tags: [effective java, private 생성자]
+tags: [effective java, private 생성]
 comments: true
 ---
 

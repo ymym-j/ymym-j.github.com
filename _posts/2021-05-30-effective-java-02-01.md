@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "생성자 대신 정적 팩터리 메서드를 고려하"
+title: "생성자 대신 정적 팩터리 메서드를 고려하라"
 date: 2021-05-30
 excerpt: "effective java 2장 item 01"
 category: [effective java]
-tags: [effective java, 생성자, 정적 팩터리 메서드]
+tags: [effective java, 생성자, 정적 팩터리 메서]
 comments: true
 ---
 

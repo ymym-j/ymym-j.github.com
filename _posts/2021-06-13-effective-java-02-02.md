@@ -1,4 +1,12 @@
-
+---
+layout: post
+title: "생성자에 매개변수가 많다면 빌더를 고려하라"
+date: 2021-05-30
+excerpt: "effective java 2장 item 01"
+category: [effective java]
+tags: [effective java, 생성자, 정적 팩터리 메서드]
+comments: true
+---
 # 생성자에 매개변수가 많다면 빌더를 고려하라
 
 정적 팩터리나 생성자에 동일한 제약이 존재한다. 선택적 매개변수가 많을 경우 적절히 대응하기 어렵다는 점이다.
