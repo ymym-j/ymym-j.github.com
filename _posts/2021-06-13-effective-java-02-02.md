@@ -4,7 +4,7 @@ title: "생성자에 매개변수가 많다면 빌더를 고려하라"
 date: 2021-05-30
 excerpt: "effective java 2장 item 01"
 category: [effective java]
-tags: [effective java, 생성자, 정적 팩터리 메서드]
+tags: [effective java, 생성자, 정적 팩터리 메서드, 빌더 패턴]
 comments: true
 ---
 # 생성자에 매개변수가 많다면 빌더를 고려하라
