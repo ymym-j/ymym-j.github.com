@@ -167,3 +167,4 @@ Member member = new Member.Builder(21302)
 ```
 
 이 클라이언트 코드는 쓰기 쉽고 읽기 쉽다. 빌더 패턴은 파이썬과 스칼라에 있는 명명된 선택적 매개변수를 흉내낸 것이다.
+![img_1.png](img_1.png)
