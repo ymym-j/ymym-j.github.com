@@ -92,11 +92,11 @@
                     <li><a href="{{ site.url }}/tags">All Tags</a></li>
                     <hr style="border: solid 3px white;">
                     {% for category in site.categories %}
-                    <a href="{{ site.baseurl }}/{{ category | first }}">
+                    <a href="category/{{ category | first }}">
                         {{ category | first }} ({{ category | last | size }})
                     </a>
                     {% endfor %}
-                    
+
                 </ul>
 			</li>
 			{% for link in site.data.navigation %}
