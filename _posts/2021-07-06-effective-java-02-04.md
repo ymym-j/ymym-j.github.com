@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "생성자에 매개변수가 많다면 빌더를 고려하라"
+title: "인스턴스 화를 막으려든 private 생성자를 사용하라"
 date: 2021-07-06
 excerpt: "effective java 2장 item 04"
 category: [effective java]
